@@ -14,11 +14,11 @@ import org.springframework.cloud.netflix.zuul.filters.ProxyRequestHelper;
 import org.springframework.stereotype.Component;
 
 @Component
-public class MyFilter extends ZuulFilter {
+public class IgnoreHeaderFilter extends ZuulFilter {
 
     private final ProxyRequestHelper proxyRequestHelper;
 
-    public MyFilter(final ProxyRequestHelper proxyRequestHelper) {
+    public IgnoreHeaderFilter(final ProxyRequestHelper proxyRequestHelper) {
         this.proxyRequestHelper = proxyRequestHelper;
     }
 
