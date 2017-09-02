@@ -18,7 +18,7 @@ public class IgnoreHeaderFilter extends ZuulFilter {
 
     private final ProxyRequestHelper proxyRequestHelper;
 
-    public IgnoreHeaderFilter(final ProxyRequestHelper proxyRequestHelper) {
+    public IgnoreHeaderFilter(ProxyRequestHelper proxyRequestHelper) {
         this.proxyRequestHelper = proxyRequestHelper;
     }
 
