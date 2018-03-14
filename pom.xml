@@ -13,7 +13,7 @@
     <description>Spring Cloud Zuul Proxy Server</description>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:mpalourdio/SpringCloudProxyServer.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:mpalourdio/ProxyServer.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
