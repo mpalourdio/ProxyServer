@@ -15,9 +15,9 @@ import org.springframework.test.context.TestPropertySource;
 
 @SpringBootTest
 @TestPropertySource(locations = "classpath:test.properties")
-public class ProxyServerApplicationTests {
+class ProxyServerApplicationTests {
 
     @Test
-    public void contextLoads() {
+    void contextLoads() {
     }
 }
