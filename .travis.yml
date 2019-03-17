@@ -7,6 +7,8 @@ jdk:
   - openjdk9
   - openjdk10
   - openjdk11
+  - openjdk12
+  - openjdk-ea
 
 matrix:
   fast_finish: true
@@ -14,3 +16,5 @@ matrix:
     - jdk: openjdk9
     - jdk: openjdk10
     - jdk: openjdk11
+    - jdk: openjdk12
+    - jdk: openjdk-ea
