@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mpalourdio/ProxyServer.svg?branch=master)](https://travis-ci.org/mpalourdio/ProxyServer)
+[![Build Status](https://github.com/mpalourdio/ProxyServer/workflows/CI/badge.svg?branch=master)](https://github.com/mpalourdio/ProxyServer/actions)
 
 Spring Cloud Gateway Server
 ===========================
