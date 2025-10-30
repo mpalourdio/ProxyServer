@@ -9,7 +9,7 @@ jobs:
       max-parallel: 4
       matrix:
         java-version: [ 25.x ]
-        graalvm-version: [ 21 ]
+        graalvm-version: [ 25 ]
 
     steps:
       - name: Checkout
@@ -27,7 +27,7 @@ jobs:
 
       - uses: graalvm/setup-graalvm@v1
         with:
-          distribution: 'liberica'
+          distribution: 'graalvm-community'
           java-version: ${{ matrix.graalvm-version }}
           cache: 'maven'
 
