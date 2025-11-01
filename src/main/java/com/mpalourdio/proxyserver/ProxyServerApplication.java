@@ -15,9 +15,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ProxyServerApplication {
+class ProxyServerApplication {
 
-    public static void main(String... args) {
+    static void main(String... args) {
         SpringApplication.run(ProxyServerApplication.class, args);
     }
 }
