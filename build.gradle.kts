@@ -19,7 +19,7 @@ repositories {
     mavenCentral()
 }
 
-extra["springCloudVersion"] = "2025.1.3"
+extra["springCloudVersion"] = "2025.1.4"
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-validation")
