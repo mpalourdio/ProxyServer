@@ -1,6 +1,6 @@
 plugins {
     java
-    id("org.springframework.boot") version "4.1.2"
+    id("org.springframework.boot") version "4.2.0"
     id("io.spring.dependency-management") version "1.1.7"
     id("org.graalvm.buildtools.native") version "1.1.18"
 }
@@ -19,7 +19,7 @@ repositories {
     mavenCentral()
 }
 
-extra["springCloudVersion"] = "2025.1.4"
+extra["springCloudVersion"] = "2026.0.0"
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-validation")
